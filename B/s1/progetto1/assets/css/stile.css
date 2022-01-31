@@ -1,0 +1,99 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+@font-face {
+    font-family:"fontawesome";
+    src: url(../webfonts/fa-brands-400.eot);
+    src: url(../webfonts/fa-regular-400.svg);
+    src: url(../webfonts/fa-solid-900.svg);
+}
+.logo {
+    background-color: black;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+}
+
+.corsoweb {
+    text-align: center;
+    background-image: url(../images/banner.jpg);
+    padding: 50px;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.corsoweb h1 {
+    color: #25a2c3;
+    font-weight: bolder;
+}
+
+.corsoweb a {
+    background-color: #f04c2f;
+    border-radius: 10%;
+    padding: 10px;
+    color: white;
+}
+
+.gruppoa {
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.titoletto {
+    font-weight: bold;
+    color: #25a2c3;
+    margin-top: 50px;
+}
+
+img.fotografia{
+    display: block;
+    margin:0 auto;
+    border-radius: 100%;
+  }
+
+  .recensione {
+      background-color: #e22d0e;
+      text-align: center;
+      margin-top: 40px;
+      margin-bottom: 40px;
+      padding: 20px;
+      color: white;
+  }
+
+  main h2 {
+      color:white;
+      font-weight: bold;
+      margin-top: 30px; 
+  }
+
+  .immaginis {
+    display: block;
+    margin:0 auto;
+    width: 350px;
+    height: 200px;
+  }
+
+  .titolofoto {
+      text-align: center;
+      font-weight: bold;
+      color: #25a2c3;
+  }
+
+  .paragrafini {
+      text-align: center;
+  }
+
+  .bordino 
+
+  footer h3 {
+    color: white;
+    font-weight: bold;
+    padding-top: 20px;
+  }
+
+  .piede {
+      background-color: #25a2c3;
+      text-align: center;
+      color: white;
+  }

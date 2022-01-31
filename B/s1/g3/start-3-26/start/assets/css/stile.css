@@ -1,0 +1,114 @@
+/* IMPOSTAZIONI GENERALI */
+body {font-family: 'Raleway', sans-serif;}
+a{
+    color: maroon;
+}
+strong{
+    color:lightblue}
+
+/* HEADER */
+header{background-color: lightskyblue;
+text-align: center;
+padding: 50px;
+border-bottom:5px solid gray;
+line-height: 1.5rem;
+}
+header h1 {
+    text-transform: uppercase; 
+    color: white; 
+    margin-bottom: 25px;
+    line-height: 2rem;
+    border-bottom: 25px;
+}
+header h2{
+    font-variant: small-caps;
+}
+header h1 span{
+    background-color: white; 
+    color: lightskyblue;
+
+}
+
+/* MAIN */
+main{margin:25px;
+}
+main figure{
+    text-align: center;
+    margin:25px;
+}
+main h2{
+    text-align: center;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color:cornflowerblue;
+    font-weight: 600;
+}
+
+main h3{
+    font-weight: bold;
+}
+
+main figure img{
+    padding: 10px;
+    border: 2px solid grey;
+    margin:20px;
+}
+main figure{
+    text-align: center;
+}
+
+main address{
+    padding: 15px;
+    margin-left: 15px;
+}
+
+main blockquote{
+background-color: lightgray;
+padding: 20px;
+border-radius: 15px;
+margin: 25px;
+font-style:italic;
+}
+
+main section{
+    border-bottom: 2px dotted grey;
+padding-top: 50px;
+padding-bottom: 50px;
+}
+
+main mark{
+    background-color: blue;
+    color: white;
+}
+
+main ul{
+    padding-left: 50px;
+}
+
+main dd{
+    padding-left: 30px;
+}
+
+/* FOOTER */
+
+footer{
+    background-color: #444444;
+    text-align: center;
+    border-top: 5px solid lightskyblue;
+    color:white;
+}
+
+footer kbd{
+color:yellow;
+font-style: italic;
+font-weight: bold;
+padding: 15px;
+font-size: 0.9em;
+}
+
+footer a {
+    color:maroon;
+}
+footer small{
+    color: lightgray;
+}
