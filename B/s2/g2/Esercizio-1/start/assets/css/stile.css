@@ -229,3 +229,139 @@ footer {
 footer a {
     color: fuchsia;
 }
+@media screen and (min-width:550px) and (max-width:1199px){
+    main {
+        font-size: 1.5em;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .foot {
+        padding: 45px;
+        font-size: 1.5em;
+    }
+    .testa {
+        padding: 30px;
+        font-size: 1.5em;
+    }
+    .logo {
+        width: 200px;
+        height: auto;
+    }
+    .social {
+        height: 40vh;
+    }
+    .toTop {
+        height: 35vh;
+    }
+    .toTop:hover {
+        padding-right: 10px;
+    }
+    .social:hover {
+        padding-right: 10px;
+    }
+    iframe {
+        width: 100%;
+        height: 400px;
+    }
+    .titoletto {
+        font-size: 1.1em;
+        text-align: center;
+    }
+    .marietto {
+        text-align: center;
+    }
+    input, button {
+        font-size: 1.1em;
+    }
+    input, button {
+        font-size: 1em;
+    }
+    aside div p:last-of-type {
+        font-size: 0.9em;
+    }
+}
+@media print {
+    header {
+        display:none;
+    }
+    footer {
+        display:none;
+    }
+    .social {
+        display: none;
+    }
+    .toTop {
+        display: none;
+    }
+    .articolicorrelati {
+        display: none;
+    }
+    .videoyou {
+        display: none;
+    }
+    .email {
+        display: none;
+    }
+    main {
+        font-size: 1.7em;
+    }
+    main {
+        box-shadow: none;
+    }
+    .indicatori {
+        color: black;
+    }
+}
+
+@media screen and (min-width:1200px){
+    main {
+        font-size: 2.1em;
+    }
+    table {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .foot {
+        padding: 65px;
+        font-size: 1.8em;
+    }
+    .testa {
+        padding: 35px;
+        font-size: 1.8em;
+    }
+    .logo {
+        width: 250px;
+        height: auto;
+    }
+    .social {
+        height: 40vh;
+    }
+    .toTop {
+        height: 35vh;
+    }
+    .toTop:hover {
+        padding-right: 10px;
+    }
+    .social:hover {
+        padding-right: 10px;
+    }
+    iframe {
+        width: 100%;
+        height: 600px;
+    }
+    .titoletto {
+        font-size: 1.1em;
+        text-align: center;
+    }
+    .marietto {
+        text-align: center;
+    }
+    input, button {
+        font-size: 1.1em;
+    }
+    aside div p:last-of-type {
+        font-size: 1em;
+    }
+}
