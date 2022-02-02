@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    width: 90vw;
+    margin: 20px auto;
+    border-radius: 10px;
+    background-color: coral;
+    display: grid;
+    grid-template-columns: repeat(4, 150px);
+    grid-template-rows: repeat(2, 100px);
+    gap: 20px 5px; /*row-gap: 20px & column-gap: 5px forma estesa*/
+    height: 500px;
+    justify-content: center;
+    align-content: center;
+}
+
+.wrapper > * {
+    background-color: cornflowerblue;
+    border: 2px solid brown;
+    padding: 20px;
+}
+
+.wrapper div:first-child {
+    grid-row-start: 1;
+    grid-row-end: 5;
+    justify-self: center;
+}
+.wrapper div:last-child {
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+.wrapper div:nth-child(1) {
+    grid-column-start: 1;
+    grid-column-end: 5;
+}
+.wrapper div:nth-child(5) {
+    grid-area: 4/ 2/ 4/ 6;
+}
