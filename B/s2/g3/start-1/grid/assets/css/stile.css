@@ -331,4 +331,24 @@ footer a {
         display: none;
     }
 }
-
+    @media screen and (min-width:800px){
+    main {
+        display: grid;
+        grid-template-columns: 65% 30%;
+        grid-gap: 5%;
+    }
+    }
+    @media screen and (min-width:800px) and (max-width:1200px) {
+        aside section {
+            position: sticky;
+            top: 300px;
+            margin-bottom: -20px;
+        }
+    }
+    @media screen and (min-width:1200px) {
+        aside section {
+            position: sticky;
+            top: 300px;
+            margin-bottom: -20px;
+        }
+    }
