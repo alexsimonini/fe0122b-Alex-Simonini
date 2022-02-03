@@ -1,0 +1,55 @@
+.lavagna {
+    background-color: slategrey;
+    width: 1000px;
+    height: 400px ;
+    display: flex;
+    margin-top: 100px;
+    flex-wrap: wrap;
+    justify-content: baseline;
+}
+.lavagna div {
+    width: 90px;
+    height: 80px;
+    border: 1px solid black;
+    text-align: center;
+    padding: 20px;
+    margin: 40px;
+}
+
+.lavagna div:hover {
+    width: 125px;
+    height: 105px;
+}
+
+.lavagna div:nth-child(1){
+    background-color:#d2df87;
+    transform: rotate(-10deg);
+}
+.lavagna div:nth-child(2){
+    background-color:#92cb5f;
+    transform: rotate(10deg);
+}
+.lavagna div:nth-child(3){
+    background-color:#eb8ef4;
+    transform: rotate(-10deg);
+}
+.lavagna div:nth-child(4){
+    background-color:#92cb5f;
+    transform: rotate(20deg);
+}
+.lavagna div:nth-child(5){
+    background-color:#d2df87;
+    transform: rotate(-5deg);
+}
+.lavagna div:nth-child(6){
+    background-color:#eb8ef4;
+    transform: rotate(-10deg);
+}
+.lavagna div:nth-child(7){
+    background-color:#d2df87;
+    transform: rotate(-10deg);
+}
+.lavagna div:nth-child(8){
+    background-color:#92cb5f;
+    transform: rotate(-5deg);
+}

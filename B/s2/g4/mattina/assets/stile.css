@@ -1,0 +1,24 @@
+.wrap3d {
+    perspective: 100px;
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    border-radius: 50%;
+    animation-name: animazione1;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    
+}
+
+@keyframes animazione1 {
+    0% {background-color: red; transform: rotate(0deg); margin-left: 0px;}
+    25% {background-color: sandybrown; transform: rotateX(76deg); margin-left: 10px;}
+    50% {background-color: blue; transform: rotate(180deg); margin-left: 400px;}
+    75% {margin-left: 100px;}
+    90% {margin-left:700px}
+    100% {background-color: red; transform: rotate(-180deg);margin-left: 400px;}
+}
+
