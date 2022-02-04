@@ -7,7 +7,9 @@
 /* HEADER */
 header {
     height: 70px;
+    box-shadow: 2px 2px 5px 2px black;
 }
+
 
 
 /* MAIN */
@@ -45,10 +47,13 @@ header {
     background-color: linear-gradient (to left, #69b9dc, #3c3780,);
 }
 .tabella {
-    border: medium solid black;
+    border: medium solid #00f;
+    border-collapse: collapse;
+    display: inline-block;
+    text-align: center;
 }
-.tabella th {
-    border: medium solid black;
+th, td {
+    border: medium solid #00f;
 }
 .chisiamofoto {
     display: flex;
@@ -71,6 +76,9 @@ footer {
     margin-top: 15px;
 }
 
+.footergrigio {
+    background-color: gray;
+}
 /* RESPONSIVE */
 @media screen and (max-width:500px){
     header nav ul {
@@ -78,7 +86,7 @@ footer {
         top: 0;
         left: -100%;
         transition: left 1s ease-out;
-        background-color: red;
+        background-color: gainsboro;
         width: 80vw;
         height: 80vh;
         box-shadow: 2px 2px 6px #666;
