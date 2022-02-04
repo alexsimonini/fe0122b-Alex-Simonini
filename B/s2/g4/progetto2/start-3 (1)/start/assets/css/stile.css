@@ -1,31 +1,112 @@
 /* IMPOSTAZIONI GENERALI */
-
-/* HEADER */
-header nav ul {
-    position: absolute;
-    top: 0;
-    left: -100%;
-    transition: left 1s ease-out;
-    background-color: red;
-    width: 80vw;
-    height: 80vh;
-    box-shadow: 2px 2px 6px #666;
-    z-index: 1;
+.testogrande {
+    font-size: larger;
+    margin-top: 10px;
 }
+  
+/* HEADER */
+header {
+    height: 70px;
+}
+
+
+/* MAIN */
+.banner {
+    background-image:URL(../images/banner.jpg);
+    background-size: cover;
+    height: 200px;
+    max-width: 100%;
+    text-align: center;
+}
+.pezzablu {
+    background-color: rgb(28, 28, 92);
+    height: 100px;
+    width: 100vw;
+    text-align: center;
+    color: white;
+}
+.chisarai {
+    text-align: center;
+}
+.computer {
+    display: block;
+    margin: 0 auto;
+    padding-top: 40px;
+}
+
+.spazio {
+    opacity: 0;
+}
+.testocentro {
+    text-align: center;
+}
+.bottone {
+    border: 1px solid black;
+    background-color: linear-gradient (to left, #69b9dc, #3c3780,);
+}
+.tabella {
+    border: medium solid black;
+}
+.tabella th {
+    border: medium solid black;
+}
+.chisiamofoto {
+    display: flex;
+    margin: 80px;
+    text-align: center;
+}
+
+/* FOOTER */
+footer {
+    background-color: rgb(28, 28, 92);
+    color: white;
+    height: 180px;
+    
+}
+.facebook {
+    display: inline-block;
+}
+.pie {
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* RESPONSIVE */
+@media screen and (max-width:500px){
+    header nav ul {
+        position: absolute;
+        top: 0;
+        left: -100%;
+        transition: left 1s ease-out;
+        background-color: red;
+        width: 80vw;
+        height: 80vh;
+        box-shadow: 2px 2px 6px #666;
+        z-index: 1;
+    }
+    .buttonmenu {
+        display: none;
+    }
+    .buttonmenu:checked ~ nav ul {
+        left: 0;
+    }
+    .menu {
+        position: absolute;
+        top: 5vh;
+        left: 5vw;
+        z-index: 2;
+        color: red;
+    }
+}
+@media screen and (min-width:501px){
 .buttonmenu {
     display: none;
 }
-.buttonmenu:checked ~ nav ul {
-    left: 0;
-}
 .menu {
-    position: absolute;
-    top: 5vh;
-    left: 5vw;
-    z-index: 2;
+    display: none;
 }
-/* MAIN */
-
-/* FOOTER */
-
-/* RESPONSIVE */
+nav ul li {
+    display: inline-block;
+    position: relative;
+}
+}
