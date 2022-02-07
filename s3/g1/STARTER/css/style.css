@@ -1,0 +1,19 @@
+/*BUTTON*/
+/*BODY*/
+body {
+  background-color: rgba(238, 217, 123, 0.938); }
+
+img {
+  margin-left: 33%; }
+
+button {
+  color: #cd3333;
+  background-color: #00ff15; }
+
+button:hover {
+  transform: rotate(20deg); }
+
+ul li {
+  color: aqua;
+  border: 1px solid black;
+  background-color: #00ff15; }
