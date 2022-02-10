@@ -1,0 +1,25 @@
+.container{
+    margin-top: 30px;
+}
+
+.rounded{
+    width: 700px;
+    height: 350px;
+}
+
+
+
+span, .wte {
+    color: white;
+}
+
+
+
+footer{
+    text-align: center;
+    padding: 50px;
+}
+
+button{
+    color: white;
+}
