@@ -1,0 +1,8 @@
+h1 {
+    text-align: center;
+}
+
+button{
+    box-shadow: 2px 2px 7px blue;
+    border-radius: 10%;
+}
