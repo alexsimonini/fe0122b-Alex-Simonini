@@ -1,0 +1,7 @@
+#orologio {
+    display: inline-block;
+    border: 2px solid black;
+    padding: 2px 4px;
+    background-color: black;
+    color: yellow;
+}
