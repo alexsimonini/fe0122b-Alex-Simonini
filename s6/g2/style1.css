@@ -1,0 +1,12 @@
+body {
+    margin: auto;
+    width: 350px;
+    padding: 30px;
+    height: 30px;
+    border: 2px solid #fd2751;
+    font-size: 30px;
+}
+
+.sfondo {
+    background-color: #1AD9DA;
+}

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Metodi jquery</title>
+</head>
+<body>
+    <p><span>Benvenuto!</span>Mi chiamo Alessio.</p>
+    <p>sei su<span>Epicode School</span>.</p>
+    <div>Stai frequentando il corso<span>JQuery</span>.</div>
+
+    <hr>
+
+    <p id="p">Benvenuto! Mi chiamo Alessio</p>
+    <button>Accendi/spegni il testo</button>
+
+    <hr>
+
+    Lista delle cose da fare <span id="span">Clicca per cambiare visualizzazione</span>
+    <ul>
+        <li class="esempio">Prima</li>
+        <li>Seconda</li>
+        <li>Terza</li>
+    </ul>
+
+    <hr>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('p').find('span').css('color', 'red');      //metodi find, addClass e remuveClass
+            $('p').find('span').hover(function(){
+                $(this).addClass('evidenzia');
+            }, function(){
+                $(this).removeClass('evidenzia')
+            })
+        });
+
+        $(document).ready(function(){
+            $('button').click(function(){
+                $('#p').toggleClass('accendi');     //metodo toggleClass
+            })
+        })
+
+        $(document).ready(function(){
+            $('#span').click(function(){
+                $('li').each(function(){
+                    $(this).toggleClass('evidenzio')
+                })
+            })
+        })
+
+        $(document).ready(function(){
+            $('li').filter('.esempio').css('background-color', 'blue');
+        })
+    </script>
+</body>
+</html>

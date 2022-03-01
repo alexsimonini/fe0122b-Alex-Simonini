@@ -1,0 +1,35 @@
+p {
+    display: block;
+    width: 310px;
+    padding: 15px;
+    font-size: 28px;
+    border: 2px solid greenyellow;
+    color: blueviolet;
+}
+
+span {
+    color: chartreuse;
+}
+
+.evidenzia {
+    background-color: cornflowerblue;
+}
+
+.accendi {
+    background-color: cornflowerblue;
+    font-size: 35px;
+}
+
+ul {
+    font-size: 30px;
+}
+
+#span {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.evidenzio {
+    background-color: chartreuse;
+    font-style: italic;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selettori</title>
+</head>
+<body>
+    <h1>Esempio jQuery selettore contains</h1>
+    <p>Questo è un paragrafo</p>
+    <p>Questo è un altro testo per un nuovo paragrafo</p>
+
+    <center>
+        <h1>Esempio :empty</h1>
+    
+    <table border="2">
+        <tr>
+            <th>Nome</th>
+            <th>Cognome</th>
+            <th>Telefono</th>
+        </tr>
+        <tr>
+        <td>Alessio</td>
+        <td></td>
+        <td>123456</td>
+        </tr>
+        <tr>
+            <td>Mario</td>
+            <td>Rossi</td>
+            <td></td>
+        </tr>
+    </table>
+    </center>
+
+    <hr>
+
+    <ul>
+        <li>Primo</li>
+        <li>Secondo</li>
+        <li>Terzo</li>
+        <li>Quarto</li>
+        <li>Quinto</li>
+        <li>Sesto</li>
+    </ul>
+
+    <hr>
+
+    <form action="">
+        Nome <input type="text" name="nome"><br>
+        Email <input type="email" name="email"><br>
+        <button type="submit">Invia</button>
+    </form>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <script>
+        $(() => {
+            $('p:contains(nuovo)').css('background-color', 'blue');
+        });
+
+       /* $(() => {
+            $(':empty').css('background-color', 'yellow');     //utilizzo empty
+        })*/
+
+        $(() => {
+            $('tr:even').css('background-color', 'blue');     //utilizzo even (prima e seconda fila colorata)
+        })
+
+        $(() => {
+            $('tr:odd').css('background-color', 'green');     //utilizzo odd (tutta fila centrale dispari)
+        })
+
+        $(() => {
+            $('li:first-child').css('background-color', 'blue');     //utilizzo firs-child
+        })
+
+        $(() => {
+            $('li:last-child').css('background-color', 'yellow');     //utilizzo last-child
+        })
+
+        $(() => {
+            $('li:nth-child(3').css('background-color', 'red');     //utilizzo nth-child(n)
+        })
+
+        $(() => {
+            $(':text').css('background-color', 'blue');     //utilizzo even
+        })
+    </script>
+</body>
+</html>
